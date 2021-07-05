@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(new jzkuApp());
+void main() => runApp(new JzkuApp());
 
-class jzkuApp extends StatelessWidget {
+class JzkuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -12,7 +12,7 @@ class jzkuApp extends StatelessWidget {
           title: new Text('机智库'),
         ),
         body: new Center(
-          child: new Text('川老婆挨透'),
+          child: new Text('Hello'),
         ),
       ),
     );
