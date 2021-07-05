@@ -12,7 +12,7 @@ class jzkuApp extends StatelessWidget {
           title: new Text('机智库'),
         ),
         body: new Center(
-          child: new Text('小白挨透'),
+          child: new Text('川老婆挨透'),
         ),
       ),
     );
