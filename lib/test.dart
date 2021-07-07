@@ -7,14 +7,18 @@ class TestPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("TestPage184"),
-        ),
-        body: Center(
-            child: Column(
-          children: [],
+      appBar: AppBar(
+        title: Text("TestPage184"),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            TextButton(onPressed: (){Navigator.pop(context);}, child: Text(texts["data"],style: TextStyle(fontSize: 30)))
+          ],
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
-        )));
+        )
+      )
+    );
   }
 }

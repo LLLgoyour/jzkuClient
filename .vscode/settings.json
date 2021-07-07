@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSaveMode": "modifications",
+    "dart.enableSdkFormatter": false,
+    "dart.doNotFormat": [
+        "**/lib/**"
+    ]
+}

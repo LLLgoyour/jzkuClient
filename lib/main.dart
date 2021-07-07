@@ -27,20 +27,23 @@ class MainPage extends StatelessWidget {
           title: new Text('机智库'),
         ),
         body: Center(
-            child: Column(
+          child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, "TestPage",
-                      arguments: {"data": "Oh Shit"});
-                },
-                child: Text("你好", style: TextStyle(fontSize: 30))),
+              onPressed: () {
+                Navigator.pushNamed(context, "TestPage",
+                    arguments: {"data": "test"});
+              },
+              child: Text("你好", style: TextStyle(fontSize: 30))
+            ),
             Text(
               "Flutter",
               style: TextStyle(fontSize: 20),
             )
           ],
-        )));
+        )
+      )
+    );
   }
 }
